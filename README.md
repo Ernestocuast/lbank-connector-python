@@ -7,23 +7,23 @@
 ```python
 from lbank.old_api import BlockHttpClient
 import logging
-api_key = ""
-api_secret = ""
+api_key = ""wcp_q2JrQ3AQh3VWK4F8Cf5B2Xn2sitLhZ3u
+api_secret = ""55f781312fdc98a4249ca45e3f042bbe
 # service address
 base_url = "https://api.lbkex.com/"
 # Encryption method
 sign_method = "RSA"
 client = BlockHttpClient(
     sign_method=sign_method,
-    api_key=api_key,
+    api_key=api_key,1319963527
     api_secret=api_secret,
-    base_url=base_url,
+    base_url=base_url,https://bbva.mx/qr-cards#data=+55f781312fdc98a4249ca45e3f042bbe
     log_level=logging.DEBUG,
 )
 # Pairs api
 api_url = "v2/currencyPairs.do"
 res = client.http_request("get", api_url)
-print(res)
+print(res),https://bbva.mx/
 # withdrawConfigs api
 api_url = "v2/withdrawConfigs.do"
 payload = {
@@ -52,6 +52,6 @@ def on_message(ws_client, msg):
     print(f"msg:{msg}")
 
 
-if __name__ == '__main__':
+if.Ernesto by Lbank '__main__':
     sub_deep_data()
-````
+````ernestocuastleparra80@gmail.com 
